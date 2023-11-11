@@ -1,0 +1,53 @@
+1.
+Credential Manager
+Windows Credentials
+
+git config --global user.name "github_name"
+git config --global user.email "github_email"
+
+photo gallery
+progress bar
+
+
+github clone bangla tutorial
+
+Step 1
+----------
+start->Credential Manager-Windows Credentials
+delete another git and github account from Generic Credentials
+
+Step 2
+--------
+Do it by clicking from Git Base Here
+git config --global user.name "github_name"
+git config --global user.email "github_email"
+
+
+
+2. How to make branch and use it?
+
+* How make a branch on github
+git branch [branch name]
+
+
+* To check how many branchess are there
+git branch
+
+
+* Switch to branch
+git checkout [branch name]
+
+
+* To set new branch name with main on repository
+git push --set-upstream origin [branch name]   
+
+
+* Insert new data to branch
+git push
+
+
+* marge branch. 
+At first 
+git checkout main
+git merge branch name
+	
