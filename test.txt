@@ -1,1 +1,3 @@
-lorem50 
+<?php
+
+echo "hi";

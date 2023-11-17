@@ -27,23 +27,36 @@ git config --global user.email "github_email"
 2. How to make branch and use it?
 
 * How make a branch on github
+-----------------------------
 git branch [branch name]
+-----------------------------
 
-
-* To check how many branchess are there
+* To check how many branches are there
+------------
 git branch
-
+------------
 
 * Switch to branch
+-------------------------
 git checkout [branch name]
+-------------------------
+
+*or after creating branch it will be switch automatically
+------------------------------
+git checkout -b [branch name]
+------------------------------
 
 
 * To set new branch name with main on repository
+------------------------------------------------
 git push --set-upstream origin [branch name]   
+------------------------------------------------
 
+git add .
+git commit -m "commit name"
+git branch -M [branch name]
+git push 
 
-* Insert new data to branch
-git push
 
 
 * marge branch. 
@@ -149,9 +162,51 @@ git reset --hard
 ---------------------
 
 #16
-for deleting file
+After adding commit if you would like to delete file
 --------------
 git rm [file name]
 --------------
+
+
+#17
+for ignoring file 
+--------------------
+touch .gitignore
+--------------------
+after creating file you have to write what files you would like to ignore.
+Suppose you want to ignore the following file.
+test.php file from folder of app
+you have to write in gitignore.txt file
+test.php 
+
+for ignoring folder
+folder name / 
+you have to write '/' (slash) after the file name
+
+for multiple file
+--
+one.html
+foldername/file.name
+*.jpg
+*.doc
+*.[file extension name]
+
+
+#18
+how to delete commit 
+-----------------------------------------
+git revert [paste the full SHA]
+-----------------------------------------
+You will get SHA from commit right side first option.
+
+You have to press Q for quite and follow the below commands
+
+Finally you have to 
+git add .
+git commit -m "new commit";
+git push
+
+
+
 
 
