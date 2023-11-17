@@ -50,4 +50,68 @@ git push
 At first 
 git checkout main
 git merge branch name
-	
+
+
+
+#3
+for see list of all files
+---
+ls
+---
+
+#4
+for see all hidden files
+ls -lart [It does not work]
+
+#5
+for creating file
+--------------
+touch index.html
+-------------
+
+#6
+index.html      U
+about.html      U
+contact.html    U
+
+Above 'U' means these files are untrack.
+
+
+#7
+index.html      M
+about.html      M
+contact.html    M
+
+Above 'M' means these files are modified.
+
+#8
+index.html      A
+about.html      M
+contact.html    M
+
+Above 'A' means these files are in stage. Is is done after 
+------------------------------
+git add index.html
+------------------------------
+
+#9
+-----------
+git reset
+-----------
+All file will go to stage
+
+
+#10
+for adding specific folder
+
+--------------
+cd [folder name]
+git add .
+------------
+
+
+#10
+for retrieving deleted data from any any. If data are deleted from index.html fine, then
+------------------------
+git checkout index.html
+------------------------
