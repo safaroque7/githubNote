@@ -133,3 +133,25 @@ for seeing last commit
 --------------
 git log -p -1
 --------------
+
+N:B. After using above code, you have to press Q for next attempt.
+
+#14
+for visiting last change 
+--------
+git diff
+--------
+
+#15
+for hard reset. That means everything will be before comiting.
+---------------------
+git reset --hard
+---------------------
+
+#16
+for deleting file
+--------------
+git rm [file name]
+--------------
+
+
