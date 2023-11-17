@@ -115,3 +115,21 @@ for retrieving deleted data from any any. If data are deleted from index.html fi
 ------------------------
 git checkout index.html
 ------------------------
+
+#11
+after deleting files. These are retrieved by using below code
+--------------------
+git checkout -f
+-------------------
+
+#12
+for details
+------------
+git log
+-----------
+
+#13
+for seeing last commit
+--------------
+git log -p -1
+--------------
