@@ -207,6 +207,14 @@ git commit -m "new commit";
 git push
 
 
+#19
+How to delete branch on github
+--------------------------------
+git branch -d [branch name]
+--------------------------------
 
 
 
+
+
+these texts are for testBranch. 
