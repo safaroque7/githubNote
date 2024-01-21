@@ -34,3 +34,13 @@ details[open] > summary {
 details[open]{
     background-color: darkkhaki;
 }
+
+pre {
+    font-size: 19px;
+    line-height: 162%;
+}
+
+summary {
+    font-size: 26px;
+    font-family: sans-serif;
+}
