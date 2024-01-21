@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto 0;
+}
+
+details {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #999999;
+}
+
+details:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+summary{
+    cursor: pointer;
+}
+
+details[open] > summary {
+    background: red;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+details[open]{
+    background-color: darkkhaki;
+}
