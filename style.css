@@ -20,27 +20,33 @@ details:last-child {
     border-bottom: none;
 }
 
-summary{
+summary {
     cursor: pointer;
 }
 
-details[open] > summary {
+details[open]>summary {
     background: red;
     color: white;
     padding: 5px;
     margin-bottom: 10px;
 }
 
-details[open]{
+details[open] {
     background-color: darkkhaki;
 }
 
-pre {
+code {
     font-size: 19px;
     line-height: 162%;
+    padding: 10px 19px 15px;
+    display: block;
 }
 
 summary {
     font-size: 26px;
     font-family: sans-serif;
+}
+
+pre {
+    margin-left: -163px;
 }
