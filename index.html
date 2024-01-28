@@ -109,13 +109,36 @@
         </details>
 
         <details>
-            <summary> ধরুন, আপনি কোড এডিটরে কোনো পরিবর্তন করার পর গিট পুশ করে গিটহাবে আপলোড করে দিলেন। এরপর ভুলক্রমে
+            <summary> ৯. ধরুন, আপনি কোড এডিটরে কোনো পরিবর্তন করার পর গিট পুশ করে গিটহাবে আপলোড করে দিলেন। এরপর ভুলক্রমে
                 কিছু কোড কোনো ফাইল থেকে মুছে গেল। আপনি বুঝতে পারেননি। এরপর আপনি কোড এডিটর বন্ধ করে ফেললেন। পরবর্তীতে যখন
                 আপনি ফাইল খুললেন, খুলে দেখেন আপনার কাঙ্ক্ষিত কোডটুকু নেই। অথচ গিটহাবে আছে। সেটা আপনার কোড এডিটরে ফিরিয়ে
                 নেওয়ার জন্য...। যদি ফাইলটির নাম হয়ে থাকে index.html।
             </summary>
             <code>
                 git checkout index.html
+            </code>
+        </details>
+
+
+        <details>
+            <summary> ১০. গিটের পরিবর্তনগুলো একটা গিটহিস্টোরির মাধ্যমে থাকে। যেমন আমরা সহজেই বুঝতে পারি বা চেকআউটের মাধ্যমে
+                ফিরে যেতে পারি। গিটের এই হিস্টোরিগুলো দেখতে নিচের কোড।
+            </summary>
+            <code>
+                git log --oneline
+            </code>
+
+            <p> উপরের কোডটি লিখে এন্টার দেওয়ার পর নিচের মতো করে কোড পাব। সেখান থেকে আমরা  git checkout c8a217f লিখে আমাদের কাঙ্ক্ষিত আগের ফাইলের কোডগুলো দেখতে পারি।</p>
+
+            <code>
+                1afd2a5 (HEAD -> main, origin/main) checking git history
+                c8a217f checkout learned
+                3939c9b checkout testing
+                4ac1727 7 and 8 No. items have been added
+                ab94a5d code tag has been added
+                e19c33b Feature: 4 No git log has been added here
+                f41cf72 font size extended
+                78a9ece first commit
             </code>
         </details>
 
