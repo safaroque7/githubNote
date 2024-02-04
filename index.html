@@ -146,6 +146,49 @@
         </pre>
         </details>
 
+
+        <details>
+            <summary> ১১. git clean কমান্ডের ব্যবহার। ধরুন, আপনি ‍কিছু ফাইল ক্রিয়েট করেছেন। কিন্তু সেগুলো এগুলো গিটহাবে
+                আপলোড করেননি। সেগুলো কোন কোন ফাইল সেটা বের করা সত্যিই কঠিন। সেটা বের করার জন্য নিচের কোড। </summary>
+            <code>
+                git clean -i
+            </code>
+            <p>
+                উপরের -i, -n এবং -f নামের কমান্ডগুলোর ব্যবহার নিচের মতো করে হবে। <br>
+                <code> git clean -i </code>
+                আপনাকে একটা সিরিয়াল দেখাবে। সেখানের নাম্বার অনুযায়ী কার্যাদি সম্পন্ন হবে।
+            </p>
+
+
+            <pre>
+                            1: clean                2: filter by pattern    3: select by numbers
+                            4: ask each             5: quit                 6: help
+                            <br>
+
+                            1. clean               - start cleaning
+                            2. filter by pattern   - exclude items from deletion
+                            3. select by numbers   - select items to be deleted by numbers
+                            4. ask each            - confirm each deletion (like "rm -i")
+                            5. quit                - stop cleaning
+                            6. help                - this screen
+
+                        </pre>
+
+            <p>
+                <code> git clean -n </code> ব্যবহার করলে আপনাকে দেখাবে কোন কোন ফাইলগুলো ডিলিট করা যাবে।
+            </p>
+
+            <p>
+
+                <code> git clean -f </code> কমান্ড ব্যবহার করলে কোনো দেখাদেখি নাই। কমিট করা ছাড়া সব ফাইল একটা একটা করে
+                ডিলিট
+                করে দেবে।
+
+            </p>
+
+
+        </details>
+
     </div>
 
 

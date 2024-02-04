@@ -50,3 +50,7 @@ summary {
 pre {
     margin-left: -163px;
 }
+
+p {
+    padding: 0 15px 15px;
+}
